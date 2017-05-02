@@ -14,8 +14,7 @@ import com.sihua.rxjava.fragment.LoginFragment;
 public class LoginActivity extends OpenriceSuperActivity {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initView(Bundle savedInstanceState) {
         setContentView(R.layout.common_activity);
         LoginFragment fragment = LoginFragment.newInstance(new Bundle());
         getSupportFragmentManager().beginTransaction().add(R.id.container,fragment).commit();

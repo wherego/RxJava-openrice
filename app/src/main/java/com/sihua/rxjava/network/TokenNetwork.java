@@ -1,7 +1,5 @@
 package com.sihua.rxjava.network;
 
-import android.content.Context;
-import android.provider.Settings;
 
 import com.sihua.rxjava.application.OpenRiceApplication;
 import com.sihua.rxjava.network.api.OpenriceApi;
@@ -38,6 +36,7 @@ public class TokenNetwork {
         okHttpClient = genericClient();
         retrofit = new Retrofit.Builder()
                 .client(okHttpClient)
+                .baseUrl(BASE_URL)
                 .addConverterFactory(gsonConverterFactory)
                 .addCallAdapterFactory(rxJavaCallAdapterFactory)
                 .build();
@@ -46,7 +45,7 @@ public class TokenNetwork {
 
     public static OpenriceTokenApi getOpenriceApi(){
         if(openriceApi == null){
-            retrofit.create(OpenriceApi.class);
+            openriceApi = retrofit.create(OpenriceTokenApi.class);
         }
         return openriceApi;
     }

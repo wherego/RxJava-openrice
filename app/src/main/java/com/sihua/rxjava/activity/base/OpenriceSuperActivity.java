@@ -1,5 +1,7 @@
 package com.sihua.rxjava.activity.base;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -9,13 +11,18 @@ import com.sihua.rxjava.R;
  * Created by sihuaxie on 17/5/2.
  */
 
-public class OpenriceSuperActivity extends AppCompatActivity {
+public abstract class OpenriceSuperActivity extends AppCompatActivity {
     protected int mRegionID = 0;
     protected int mCountryId = 1;
 
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        initView(savedInstanceState);
+    }
+
+    protected abstract void initView(Bundle savedInstanceState);
     protected OpenriceProgressDialogFragment progressDialogFragment = null;
-
-
     public void showProgressDialog(String messageStr, boolean isCancelable) {
 
         if (!isFinishing()) {
