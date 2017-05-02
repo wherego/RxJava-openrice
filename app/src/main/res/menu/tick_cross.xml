@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cross"
+        android:icon="@drawable/common_close"
+        app:showAsAction="always"
+        android:orderInCategory="99"
+        android:title="@string/cancel"
+        />
+    <item android:id="@+id/tick"
+        android:icon="@drawable/common_tick"
+        android:orderInCategory="100"
+        android:title="@string/ok"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="adv_search_filter_divider">#e5e5e5</color>
+    <color name="adv_search_filter_bg">#f2f2f2</color>
+    <color name="OpenRice_Theme_Color">#FFcb05</color>
+    <color name="OpenRice_Theme_Color_Dark">#e6b329</color>
+    <color name="sr2_doorphoto_bg">#fffff5cd</color>
+    <color name="bg_color">#90000000</color>
+    <color name="sr2_overview_hour_highlight">#ffb3865a</color>
+    <color name="gr">#ff00a66d</color>
+    <color name="dgr">#ff009342</color>
+    <color name="dr">#009342</color>
+    <color name="or">#e54e26</color>
+    <color name="or_90">#E6e54e26</color>
+    <color name="bgy">#3e3e3e</color>
+    <color name="lgy">#f2f2f2</color>
+    <color name="lbr">#85796e</color>
+    <color name="gy">#e2e2e2</color>
+    <color name="dgy">#8e8e8e</color>
+    <color name="br">#4e3c2d</color>
+    <color name="bu">#3e75d9</color>
+    <color name="y">#ffcb05</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="ly">#fffcdf</color>
+    <color name="o">#E54E26</color>
+    <color name="o_20">#33E54E26</color>
+    <color name="o_disable">#80E54E26</color>
+    <color name="o_dark">#972e12</color>
+    <color name="w">#ffffff</color>
+    <color name="w_50">#80ffffff</color>
+    <color name="pre_order">#999999</color>
+    <color name="tag_border">#d9d9d9</color>
+    <color name="personalize_border">#ffba02</color>
+    <color name="separate_line">#e5e5e5</color>
+    <color name="toolbar_title_text_color">@color/br</color>
+    <color name="button_shadow_color">#d1ac22</color>
+    <color name="button_offer_filter_shadow_color">#0d723c</color>
+    <color name="sr1_sponsored_bg">#fff8db</color>
+    <color name="home_carousel_background">#303030</color>
+    <color name="list_book_online_background">#b79d88</color>
+    <color name="award_item_background">#fbf2d7</color>
+    <color name="award_btn_background">#ffb009</color>
+    <color name="vote_count_background">#e8e8e8</color>
+    <color name="vg">#00b61e</color>
+    <color name="open_now_indicator_rest">#ff001f</color>
+    <color name="cgy">#cccccc</color>
+
+
+    <color name="transparent_background_pressed">#20000000</color>
+    <color name="transparent_background_disabled">#00000000</color>
+
+    <color name="background_shade">#80000000</color>
+    <color name="lrg">#f9f5f1</color>
+
+
+    <!-- Write Review -->
+    <color name="Write_Review_Background_Color">#FFF2F2F2</color>
+    <color name="Write_Review_Section_Divider_Color">#e2e2e2</color>
+    <color name="listview_item_press">#F2F2F6</color>
+
+
+    <!--coupon detail activity-->
+    <color name="coupon_poi_layout_bg">#4E3C2D</color>
+
+    <!--advanced search-->
+    <color name="white_box_bg">#FFFFFF</color>
+
+    <!--floating menu -->
+    <color name="primary">#e54e26</color>
+    <color name="primary_dark">#303f9f</color>
+    <color name="ripple">#F06292</color>
+    <color name="accent">#E91E63</color>
+    <color name="accent_pressed">#C2185B</color>
+
+    <color name="home_empty_bg">#d4d4d4</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="black_90_transparent">#E6000000</color>
+    <color name="black_80_transparent">#cd000000</color>
+    <color name="black_70_transparent">#B3000000</color>
+    <color name="black_30_transparent">#4d000000</color>
+    <color name="black_40_transparent">#66000000</color>
+    <color name="black_50_transparent">#cc000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_bk">#10000000</color>
+    <color name="transparent_bk_85">#d8000000</color>
+    <color name="transparent_bk_50">#7d000000</color>
+    <color name="transparent_bk_40">#66000000</color>
+    <color name="sponsored_restaurant_bg">#fef3ca</color>
+
+    <color name="poll_1">#ffff663d</color>
+    <color name="poll_2">#ff93725d</color>
+    <color name="poll_3">#ff27cfff</color>
+    <color name="poll_4">#ffcd3b86</color>
+    <color name="poll_5">#ff4575a2</color>
+    <color name="poll_6">#ffffd9d9</color>
+
+    <color name="myor_notification_count">#fffd0503</color>
+
+    <array name="poll_colors">
+        <item>@color/poll_1</item>
+        <item>@color/poll_2</item>
+        <item>@color/poll_3</item>
+        <item>@color/poll_4</item>
+        <item>@color/poll_5</item>
+        <item>@color/poll_6</item>
+    </array>
+
+    <color name="semi_transparent_y">#7fffcb05</color>
+    <color name="translucent_background">#D8000000</color>
+    <color name="indicator_home_tab">#ffcc02</color>
+
+
+    <color name="booking_btn_disable">#e5e5e5e5</color>
+    <color name="or_cancel">#e60000</color>
+    <color name="rg">#b78050</color>
+    <color name="rob">#3b2f22</color>
+    <color name="b_gy">#7b7b7b</color>
+</resources>

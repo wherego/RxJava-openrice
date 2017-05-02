@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <item android:state_enabled="false" android:drawable="@drawable/switch_thumb_disabled_holo_dark" />
+        <item android:state_pressed="true" android:drawable="@drawable/switch_thumb_pressed_holo_dark" />
+        <item android:state_checked="true" android:drawable="@drawable/switch_thumb_activated_holo_dark" />-->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/OpenRice_Theme_Color" />
+        </shape>
+    </item>
+
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffd5a201" />
+        </shape>
+    </item>
+</selector>

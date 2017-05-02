@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.openrice.android.ui.activity.sr2.reviews.editor.ReviewShortActivity">
+
+    <item android:id="@+id/action_review_save" android:title="@string/action_review_save"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_review_load" android:title="@string/action_review_load"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>

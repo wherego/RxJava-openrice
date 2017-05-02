@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="#994f46" />
+    </item>
+    <item android:bottom="1dp">
+        <color android:color="#d64736" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center_vertical|left"
+            android:src="@drawable/q_login_btn_logo_google" />
+    </item>
+</layer-list>

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- text styles start -->
+    <style name="typeface" parent="android:Widget.Holo.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="typefaceMedium" parent="typeface">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="typefaceLight" parent="typeface">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="LBR13N" parent="typeface">
+        <item name="android:textColor">@color/lbr</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="LBR14N" parent="typeface">
+        <item name="android:textColor">@color/lbr</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="LBR16N" parent="typeface">
+        <item name="android:textColor">@color/lbr</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BGY12N" parent="typeface">
+        <item name="android:textColor">@color/bgy</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BGY13N" parent="typeface">
+        <item name="android:textColor">@color/bgy</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="BGY14N" parent="typeface">
+        <item name="android:textColor">@color/bgy</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BGY15N" parent="typeface">
+        <item name="android:textColor">@color/bgy</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BGY16N" parent="typeface">
+        <item name="android:textColor">@color/bgy</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="GR14N" parent="typeface">
+        <item name="android:textColor">@color/gr</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="GY17N" parent="typeface">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="GY13N" parent="typeface">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="GY14N" parent="typeface">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="GY16N" parent="typeface">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="GY11N" parent="typeface">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="GY12N" parent="typeface">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="GY18M" parent="typefaceMedium">
+        <item name="android:textColor">@color/gy</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DGY10N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="DGY8N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="DGY14M" parent="typefaceMedium">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DGY12N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DGY13N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="DGY13I" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="DGY12B" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DGY11N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="DGY14N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DGY14B" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DGY16N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DGY17N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="DGY17B" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DGY18B" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DGY20N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DGY21B" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DGY21N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="DGY15N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DGY28N" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="DGR15N" parent="typeface">
+        <item name="android:textColor">@color/dgr</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DGR14B" parent="typeface">
+        <item name="android:textColor">@color/dgr</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DR30B" parent="typeface">
+        <item name="android:textColor">@color/dr</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O12N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="O12B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O12LI" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="O13M" parent="typefaceMedium">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="O16B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O15B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O18B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O19B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O17M" parent="typefaceMedium">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="O14M" parent="typefaceMedium">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="O16N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="O16M" parent="typefaceMedium">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="O17N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="O10N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="O11N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+
+    <style name="O13N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="O14N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="O15N" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="O17B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="O12R" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="O24B" parent="typeface">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR17B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR10M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+
+    <style name="BR11N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="BR17N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="BR17M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="BR14N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DR14B" parent="typeface">
+        <item name="android:textColor">@color/dr</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR15N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BR14B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR15B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR20B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="BR20M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BR13N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="BR12M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BR13B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR20N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BR21N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="BR21B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR36N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="BR12N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BR12B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR16B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR16M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BR15M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BR18N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BR18M" parent="typefaceMedium">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BR18B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR25B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR32B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR16N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BR12L" parent="typefaceLight">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BR24B" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BR26N" parent="typeface">
+        <item name="android:textColor">@color/br</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="W36B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W16B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W16N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="W14N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="W14B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W30N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="W32N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="W17N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+
+    <style name="W17M" parent="typefaceMedium">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="W34N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="W15N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="W15M" parent="typefaceMedium">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="W11N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="W12N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="W12M" parent="typefaceMedium">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="W18N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="W18M" parent="typefaceMedium">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="W17B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="W23N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="W23B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W20L" parent="typefaceLight">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="W20B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W15L" parent="typefaceLight">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!--<item name="android:background">@drawable/fab_label_background</item>-->
+    <style name="menu_labels_style" parent="typeface">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="W13N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="W13T" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="W36N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="W39N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">39sp</item>
+    </style>
+
+    <style name="W10N" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="W12B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W15B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W18B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W12I" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="W26M" parent="typefaceMedium">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Y12B" parent="typeface">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Y13B" parent="typeface">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Y15B" parent="typeface">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Y15N" parent="typeface">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Y12LI" parent="typefaceLight">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Y14N" parent="typeface">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="LGY12N" parent="typeface">
+        <item name="android:textColor">@color/lgy</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="LGY14N" parent="typeface">
+        <item name="android:textColor">@color/lgy</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DGY16B" parent="typeface">
+        <item name="android:textColor">@color/dgy</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LGY16B" parent="typeface">
+        <item name="android:textColor">@color/lgy</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LGY16N" parent="typeface">
+        <item name="android:textColor">@color/lgy</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LGY17B" parent="typeface">
+        <item name="android:textColor">@color/lgy</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Y17B" parent="typeface">
+        <item name="android:textColor">@color/y</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W22B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="W25B" parent="typeface">
+        <item name="android:textColor">@color/w</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="OR19B">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OR20B">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OR17N">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="OR14B">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OR14N">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="OR16N">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OR12N">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="OR24B">
+        <item name="android:textColor">@color/o</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RG16M" parent="typefaceMedium">
+        <item name="android:textColor">@color/rg</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ROB20B" parent="typeface">
+        <item name="android:textColor">@color/rob</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ROB16M" parent="typefaceMedium">
+        <item name="android:textColor">@color/rob</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ROB16N">
+        <item name="android:textColor">@color/rob</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DGY40M" parent="typefaceMedium">
+        <item name="android:textColor">@color/dr</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="CGY14B" parent="typeface">
+        <item name="android:textColor">@color/cgy</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

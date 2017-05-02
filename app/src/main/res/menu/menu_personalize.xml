@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.openrice.android.ui.activity.home.HomePickActivity">
+    <item android:id="@+id/action_per_save" android:icon="@drawable/common_tick"
+        android:orderInCategory="100"
+        android:title="@string/done"
+        app:showAsAction="always" />
+</menu>

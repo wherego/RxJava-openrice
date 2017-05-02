@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?attr/actionButtonStyle">
+
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="80"
+        android:title="@string/notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/common_image_setting_wt"
+        android:orderInCategory="80"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+</menu>
