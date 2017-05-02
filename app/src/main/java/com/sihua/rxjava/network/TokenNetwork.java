@@ -5,6 +5,8 @@ import android.provider.Settings;
 
 import com.sihua.rxjava.application.OpenRiceApplication;
 import com.sihua.rxjava.network.api.OpenriceApi;
+import com.sihua.rxjava.network.api.OpenriceTokenApi;
+import com.sihua.rxjava.utils.DeviceUtil;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -30,7 +32,7 @@ public class TokenNetwork {
     private static Converter.Factory gsonConverterFactory = GsonConverterFactory.create();
     private static CallAdapter.Factory rxJavaCallAdapterFactory = RxJavaCallAdapterFactory.create();
     private static Retrofit retrofit;
-    public static OpenriceApi openriceApi;
+    public static OpenriceTokenApi openriceApi;
 
     static {
         okHttpClient = genericClient();
@@ -42,12 +44,13 @@ public class TokenNetwork {
     }
 
 
-    public static OpenriceApi getOpenriceApi(){
+    public static OpenriceTokenApi getOpenriceApi(){
         if(openriceApi == null){
             retrofit.create(OpenriceApi.class);
         }
         return openriceApi;
     }
+
 
     public static OkHttpClient genericClient() {
         OkHttpClient httpClient = new OkHttpClient.Builder()
@@ -58,7 +61,7 @@ public class TokenNetwork {
                         String header = "Openrice" + cnVersion + "_Android/" + "5.6" + " (Android; " + android.os.Build.VERSION.SDK_INT + ")";
                         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
                         String currentDatTime = sdf.format(new Date());
-                        String deviceId = getDeviceUUID(OpenRiceApplication.getInstance());
+                        String deviceId = DeviceUtil.getDeviceUUID(OpenRiceApplication.getInstance());
                         Request request = chain.request()
                                 .newBuilder()
                                 .addHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
@@ -75,16 +78,5 @@ public class TokenNetwork {
                 .build();
 
         return httpClient;
-    }
-
-    public static String getDeviceUUID(Context context) {
-        String androidId = "";
-        try {
-            androidId = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return androidId;
     }
 }

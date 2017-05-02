@@ -7,18 +7,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sihua.rxjava.R;
 
 import butterknife.ButterKnife;
+import rx.Subscription;
 
 /**
  * Created by sihuaxie on 17/5/2.
  */
 
 public abstract class OpenriceSuperFragment extends Fragment {
+    protected Subscription subscription;
     protected int mRegionID = 0;
     protected int mCountryId = 1;
-    private View rootView;
+    protected View rootView;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,7 +31,6 @@ public abstract class OpenriceSuperFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         rootView = inflater.inflate(getRootViewLayoutId(), container, false);
         ButterKnife.bind(this, rootView);
-        initView();
         return rootView;
     }
 
@@ -42,10 +42,40 @@ public abstract class OpenriceSuperFragment extends Fragment {
 
     protected abstract int getRootViewLayoutId();
 
-    protected abstract void initView();
 
     protected  void loadData(){
 
     }
 
+    protected OpenriceSuperActivity getOpenRiceSuperActivity() {
+        try {
+            return (OpenriceSuperActivity) getActivity();
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public synchronized boolean isActive() {
+        return getActivity() != null && !getActivity().isFinishing() && isAdded() && !isRemoving();
+    }
+
+    protected void showLoading(){
+        getOpenRiceSuperActivity().showProgressDialog(null,false);
+    }
+
+
+    protected void hideLoading(){
+        getOpenRiceSuperActivity().hideProgress();
+    }
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unsubscribe();
+    }
+
+    protected void unsubscribe() {
+        if (subscription != null && !subscription.isUnsubscribed()) {
+            subscription.unsubscribe();
+        }
+    }
 }

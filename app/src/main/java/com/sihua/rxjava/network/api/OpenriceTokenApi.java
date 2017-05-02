@@ -14,5 +14,10 @@ import rx.Observable;
 public interface OpenriceTokenApi {
     @POST("/oauth2/token")
     @FormUrlEncoded
-    Observable<OAuthModel> reGrantOAuth2Authorize(@Field("userName") String userName,@Field("password") String password,@Field("grant_type") String type);
+    Observable<OAuthModel> reGrantOAuth2Authorize(@Field("userName") String userName,
+                                                  @Field("password") String password,
+                                                  @Field("grant_type") String type,
+                                                  @Field("client_id") String clientId,
+                                                  @Field("client_secret") String clientSecret,
+                                                  @Field("X-deviceId") String deviceId);
 }

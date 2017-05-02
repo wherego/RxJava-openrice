@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_semi_transparent">
+
+    <LinearLayout
+        android:id="@+id/dialog_container"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/sr2_bookmark_dialog_bg"
+        android:gravity="center_horizontal"
+        android:minHeight="270dp"
+        android:orientation="vertical"
+        android:paddingBottom="18dp"
+        android:paddingEnd="18dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingStart="18dp"
+        android:paddingTop="18dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/a_common_error" />
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/W15N"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:minHeight="50dp"
+            tools:text="@string/meal_invitation_login_benefits" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/orDialogButton"
+            android:layout_width="234dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/ok"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            style="@style/Y15N"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_background"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/cancel"
+            android:visibility="gone"
+            tools:visibility="visible" />
+    </LinearLayout>
+</FrameLayout>

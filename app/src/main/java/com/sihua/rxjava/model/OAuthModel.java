@@ -3,8 +3,11 @@ package com.sihua.rxjava.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
-public class OAuthModel implements Parcelable {
+
+public class OAuthModel extends RealmObject implements Parcelable {
     public static final Creator<OAuthModel> CREATOR = new Creator<OAuthModel>() {
         @Override
         public OAuthModel createFromParcel(Parcel source) {
@@ -16,6 +19,8 @@ public class OAuthModel implements Parcelable {
             return new OAuthModel[size];
         }
     };
+    @PrimaryKey
+    public String ssouserid;
     public int httpcode;
     public String access_token;
     public String token_type;
@@ -23,7 +28,6 @@ public class OAuthModel implements Parcelable {
     public String refresh_token;
     public String userName;
     public String registeredCountry;
-    public String ssouserid;
     public String eats365_token;
     //from fb
     public String name;

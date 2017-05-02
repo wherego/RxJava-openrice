@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/w"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.5" />
+
+        <LinearLayout
+            android:id="@+id/connection_error_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/connection_error_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/common_emptypage_nonetwork" />
+
+            <TextView
+                android:id="@+id/connection_error_title"
+                style="@style/DGY21N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/empty_network_unavailable_title" />
+
+            <TextView
+                android:id="@+id/connection_error_content"
+                style="@style/DGY15N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/empty_network_unavailable_message" />
+
+            <TextView
+                android:id="@+id/button_retry"
+                style="@style/orRoundCornerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="23dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/alert_retry" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.5" />
+    </LinearLayout>
+</LinearLayout>

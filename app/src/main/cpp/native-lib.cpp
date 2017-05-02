@@ -3,7 +3,7 @@
 
 extern "C"
 jstring
-Java_com_sihua_rxjava_activity_MainActivity_stringFromJNI(
+Java_com_sihua_rxjava_activity_HomeActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
