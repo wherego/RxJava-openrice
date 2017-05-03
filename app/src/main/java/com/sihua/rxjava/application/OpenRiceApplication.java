@@ -2,6 +2,8 @@ package com.sihua.rxjava.application;
 
 import android.app.Application;
 
+import com.sihua.rxjava.model.OAuthModel;
+
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
@@ -12,6 +14,7 @@ import io.realm.RealmConfiguration;
 public class OpenRiceApplication extends Application {
 
     private static OpenRiceApplication instance;
+    private OAuthModel oAuthModel;
 
     @Override
     public void onCreate() {
@@ -26,5 +29,13 @@ public class OpenRiceApplication extends Application {
     }
     public synchronized static OpenRiceApplication getInstance() {
         return instance;
+    }
+
+    public OAuthModel getoAuthModel() {
+        return oAuthModel;
+    }
+
+    public void setoAuthModel(OAuthModel oAuthModel) {
+        this.oAuthModel = oAuthModel;
     }
 }
