@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.sihua.rxjava.R;
-import com.sihua.rxjava.activity.base.OpenriceSuperActivity;
+import com.sihua.rxjava.base.OpenriceSuperActivity;
 import com.sihua.rxjava.application.OpenRiceApplication;
 import com.sihua.rxjava.model.OAuthModel;
 

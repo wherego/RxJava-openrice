@@ -50,7 +50,7 @@
         </activity>
 
         <meta-data
-            android:name="com.sihua.rxjava.activity.base.GlideConfiguration"
+            android:name="com.sihua.rxjava.base.GlideConfiguration"
             android:value="GlideModule" />
     </application>
 

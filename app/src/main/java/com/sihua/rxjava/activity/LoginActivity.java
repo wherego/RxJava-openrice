@@ -1,10 +1,9 @@
 package com.sihua.rxjava.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 
 import com.sihua.rxjava.R;
-import com.sihua.rxjava.activity.base.OpenriceSuperActivity;
+import com.sihua.rxjava.base.OpenriceSuperActivity;
 import com.sihua.rxjava.fragment.LoginFragment;
 
 /**

@@ -1,4 +1,4 @@
-package com.sihua.rxjava.activity.base;
+package com.sihua.rxjava.base;
 
 import android.app.Activity;
 import android.content.Intent;

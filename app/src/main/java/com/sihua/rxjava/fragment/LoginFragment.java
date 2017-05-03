@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.sihua.rxjava.Constants;
 import com.sihua.rxjava.R;
 import com.sihua.rxjava.activity.HomeActivity;
-import com.sihua.rxjava.activity.base.OpenriceSuperFragment;
+import com.sihua.rxjava.base.OpenriceSuperFragment;
 import com.sihua.rxjava.application.OpenRiceApplication;
 import com.sihua.rxjava.biz.user.IUserBiz;
 import com.sihua.rxjava.biz.user.UserBizImpl;
